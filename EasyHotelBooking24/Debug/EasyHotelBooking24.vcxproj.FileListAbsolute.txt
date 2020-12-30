@@ -1,0 +1,5 @@
+D:\Studium\Semester 3\Softwaretechnik\Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.vcxprojAssemblyReference.cache
+D:\Studium\Semester 3\Softwaretechnik\Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.exe
+D:\Studium\Semester 3\Softwaretechnik\Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.pdb
+D:\Studium\Semester 3\Softwaretechnik\Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.RoomDetailForm.resources
+D:\Studium\Semester 3\Softwaretechnik\Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.vcxproj.GenerateResource.cache
