@@ -29,6 +29,9 @@
     <ClInclude Include="Form1.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="RoomDetailForm.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinformsProjekt.cpp">
@@ -43,9 +46,18 @@
     <ClCompile Include="Form1.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="RoomDetailForm.cpp">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="walkway-347319_960_720.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="walkway_png.png">
       <Filter>Ressourcendateien</Filter>
     </Image>
   </ItemGroup>
