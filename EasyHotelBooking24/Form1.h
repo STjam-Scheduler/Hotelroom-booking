@@ -1,6 +1,6 @@
 #pragma once
 
-namespace CppCLRWinformsProjekt {
+namespace Window {
 
 	using namespace System;
 	using namespace System::ComponentModel;
