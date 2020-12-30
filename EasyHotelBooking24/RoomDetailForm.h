@@ -131,7 +131,7 @@ namespace Window {
 			this->DetailsTextBox->Size = System::Drawing::Size(429, 96);
 			this->DetailsTextBox->TabIndex = 5;
 			this->DetailsTextBox->TabStop = false;
-			this->DetailsTextBox->Text = L"Nice View";
+			this->DetailsTextBox->Text = L"Nice View, might burn down later";
 			// 
 			// BookBtn
 			// 
