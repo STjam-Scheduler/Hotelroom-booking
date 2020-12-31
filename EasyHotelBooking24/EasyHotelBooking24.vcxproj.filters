@@ -32,6 +32,12 @@
     <ClInclude Include="RoomDetailForm.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OneBedRoom.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinformsProjekt.cpp">
@@ -48,6 +54,12 @@
     </ClCompile>
     <ClCompile Include="RoomDetailForm.cpp">
       <Filter>Headerdateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OneBedRoom.cpp">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
