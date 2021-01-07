@@ -20,7 +20,7 @@ using namespace System::Windows::Forms;
 int main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Application::Run(gcnew Window::RoomDetailForm());
+	Application::Run(gcnew Window::Form1());
 
 
 	vector<Room*> rooms;

@@ -188,6 +188,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RoomDetailForm.resx">
       <DependentUpon>RoomDetailForm.h</DependentUpon>
     </EmbeddedResource>
