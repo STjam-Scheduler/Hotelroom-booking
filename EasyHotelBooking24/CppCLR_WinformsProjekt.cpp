@@ -24,8 +24,8 @@ int main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 
-	Window::RoomDetailForm::activeRoom = rList->rooms.at(3);
-	Application::Run(gcnew Window::RoomDetailForm());
+	Window::RoomDetailForm::activeRoom = rList->rooms.at(0);
+	Application::Run(gcnew Window::Form1());
 
 
 	return 0;

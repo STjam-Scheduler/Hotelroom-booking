@@ -15,7 +15,7 @@ RoomsList::RoomsList() {
 	rooms.push_back(room103);
 
 	Room* room104 = new ThreeBedRoom(104);
-	room104->setRoomName("IT Studentenbude");
+	room104->setRoomName("IT-Studentenbude");
 	rooms.push_back(room104);
 
 	Room* room201 = new TwoBedRoom(201);
