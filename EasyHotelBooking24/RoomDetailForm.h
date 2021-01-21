@@ -224,7 +224,6 @@ namespace Window {
 			this->FeaturesListBox->SelectionMode = System::Windows::Forms::SelectionMode::None;
 			this->FeaturesListBox->Size = System::Drawing::Size(319, 123);
 			this->FeaturesListBox->TabIndex = 15;
-			this->FeaturesListBox->SelectedIndexChanged += gcnew System::EventHandler(this, &RoomDetailForm::FeaturesListBox_SelectedIndexChanged);
 			// 
 			// label4
 			// 
