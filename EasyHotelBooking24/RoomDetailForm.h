@@ -102,10 +102,10 @@ namespace Window {
 			// 
 			this->PictureBox->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->PictureBox->ImageLocation = L"https://upload.wikimedia.org/wikipedia/de/2/2f/D%C3%B6nerbude.JPG";
-			this->PictureBox->Location = System::Drawing::Point(18, 16);
+			this->PictureBox->Location = System::Drawing::Point(24, 20);
 			this->PictureBox->Margin = System::Windows::Forms::Padding(0);
 			this->PictureBox->Name = L"PictureBox";
-			this->PictureBox->Size = System::Drawing::Size(297, 193);
+			this->PictureBox->Size = System::Drawing::Size(395, 237);
 			this->PictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->PictureBox->TabIndex = 0;
 			this->PictureBox->TabStop = false;
@@ -115,20 +115,22 @@ namespace Window {
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Georgia", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(12, 71);
+			this->label2->Location = System::Drawing::Point(16, 87);
+			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
-			this->label2->Padding = System::Windows::Forms::Padding(5);
-			this->label2->Size = System::Drawing::Size(123, 26);
+			this->label2->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
+			this->label2->Size = System::Drawing::Size(154, 32);
 			this->label2->TabIndex = 2;
 			this->label2->Text = L"Number of Beds: ";
 			// 
 			// DetailsTextBox
 			// 
-			this->DetailsTextBox->Location = System::Drawing::Point(12, 235);
+			this->DetailsTextBox->Location = System::Drawing::Point(16, 289);
+			this->DetailsTextBox->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->DetailsTextBox->Name = L"DetailsTextBox";
 			this->DetailsTextBox->ReadOnly = true;
 			this->DetailsTextBox->ScrollBars = System::Windows::Forms::RichTextBoxScrollBars::ForcedVertical;
-			this->DetailsTextBox->Size = System::Drawing::Size(429, 96);
+			this->DetailsTextBox->Size = System::Drawing::Size(571, 117);
 			this->DetailsTextBox->TabIndex = 5;
 			this->DetailsTextBox->TabStop = false;
 			this->DetailsTextBox->Text = L"Nice View, might burn down later";
@@ -144,9 +146,10 @@ namespace Window {
 			this->BookBtn->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->BookBtn->Font = (gcnew System::Drawing::Font(L"Comic Sans MS", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->BookBtn->Location = System::Drawing::Point(447, 235);
+			this->BookBtn->Location = System::Drawing::Point(596, 289);
+			this->BookBtn->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->BookBtn->Name = L"BookBtn";
-			this->BookBtn->Size = System::Drawing::Size(143, 96);
+			this->BookBtn->Size = System::Drawing::Size(191, 118);
 			this->BookBtn->TabIndex = 7;
 			this->BookBtn->Text = L"247$ /night\r\nbook now!";
 			this->BookBtn->UseVisualStyleBackColor = false;
@@ -161,10 +164,10 @@ namespace Window {
 			this->LeftBtn->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->LeftBtn->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->LeftBtn->Location = System::Drawing::Point(3, 16);
+			this->LeftBtn->Location = System::Drawing::Point(4, 20);
 			this->LeftBtn->Margin = System::Windows::Forms::Padding(0);
 			this->LeftBtn->Name = L"LeftBtn";
-			this->LeftBtn->Size = System::Drawing::Size(15, 193);
+			this->LeftBtn->Size = System::Drawing::Size(20, 238);
 			this->LeftBtn->TabIndex = 9;
 			this->LeftBtn->Text = L"<\r\n";
 			this->LeftBtn->UseVisualStyleBackColor = false;
@@ -174,9 +177,11 @@ namespace Window {
 			this->groupBox1->Controls->Add(this->RightBtn);
 			this->groupBox1->Controls->Add(this->PictureBox);
 			this->groupBox1->Controls->Add(this->LeftBtn);
-			this->groupBox1->Location = System::Drawing::Point(258, 12);
+			this->groupBox1->Location = System::Drawing::Point(344, 15);
+			this->groupBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(332, 217);
+			this->groupBox1->Padding = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->groupBox1->Size = System::Drawing::Size(443, 267);
 			this->groupBox1->TabIndex = 10;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Photo Galery";
@@ -191,10 +196,10 @@ namespace Window {
 			this->RightBtn->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->RightBtn->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->RightBtn->Location = System::Drawing::Point(315, 16);
+			this->RightBtn->Location = System::Drawing::Point(420, 20);
 			this->RightBtn->Margin = System::Windows::Forms::Padding(0);
 			this->RightBtn->Name = L"RightBtn";
-			this->RightBtn->Size = System::Drawing::Size(15, 193);
+			this->RightBtn->Size = System::Drawing::Size(20, 238);
 			this->RightBtn->TabIndex = 10;
 			this->RightBtn->Text = L">\r\n";
 			this->RightBtn->UseVisualStyleBackColor = false;
@@ -206,20 +211,23 @@ namespace Window {
 				L"Falt Screen TV", L"Lounge Area", L"Safe",
 					L"Seperated Rooms", L"Working Desk"
 			});
-			this->FeaturesListBox->Location = System::Drawing::Point(12, 120);
+			this->FeaturesListBox->Location = System::Drawing::Point(16, 148);
+			this->FeaturesListBox->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->FeaturesListBox->Name = L"FeaturesListBox";
 			this->FeaturesListBox->SelectionMode = System::Windows::Forms::SelectionMode::None;
-			this->FeaturesListBox->Size = System::Drawing::Size(240, 109);
+			this->FeaturesListBox->Size = System::Drawing::Size(319, 123);
 			this->FeaturesListBox->TabIndex = 15;
+			this->FeaturesListBox->SelectedIndexChanged += gcnew System::EventHandler(this, &RoomDetailForm::FeaturesListBox_SelectedIndexChanged);
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label4->Location = System::Drawing::Point(9, 104);
+			this->label4->Location = System::Drawing::Point(12, 128);
+			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(51, 13);
+			this->label4->Size = System::Drawing::Size(68, 17);
 			this->label4->TabIndex = 16;
 			this->label4->Text = L"Features:";
 			// 
@@ -228,20 +236,22 @@ namespace Window {
 			this->label7->AutoSize = true;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Georgia", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->Location = System::Drawing::Point(12, 45);
+			this->label7->Location = System::Drawing::Point(16, 55);
+			this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label7->Name = L"label7";
-			this->label7->Padding = System::Windows::Forms::Padding(5);
-			this->label7->Size = System::Drawing::Size(114, 26);
+			this->label7->Padding = System::Windows::Forms::Padding(7, 6, 7, 6);
+			this->label7->Size = System::Drawing::Size(141, 32);
 			this->label7->TabIndex = 17;
 			this->label7->Text = L"Room number: ";
 			// 
 			// BedNumber
 			// 
 			this->BedNumber->AutoSize = true;
-			this->BedNumber->Location = System::Drawing::Point(141, 71);
-			this->BedNumber->MinimumSize = System::Drawing::Size(100, 26);
+			this->BedNumber->Location = System::Drawing::Point(188, 87);
+			this->BedNumber->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->BedNumber->MinimumSize = System::Drawing::Size(133, 32);
 			this->BedNumber->Name = L"BedNumber";
-			this->BedNumber->Size = System::Drawing::Size(100, 26);
+			this->BedNumber->Size = System::Drawing::Size(133, 32);
 			this->BedNumber->TabIndex = 18;
 			this->BedNumber->Text = L"154";
 			this->BedNumber->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -252,11 +262,12 @@ namespace Window {
 			this->RoomName->BorderStyle = System::Windows::Forms::BorderStyle::None;
 			this->RoomName->Font = (gcnew System::Drawing::Font(L"Times New Roman", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->RoomName->Location = System::Drawing::Point(12, 19);
-			this->RoomName->MinimumSize = System::Drawing::Size(240, 20);
+			this->RoomName->Location = System::Drawing::Point(16, 23);
+			this->RoomName->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->RoomName->MinimumSize = System::Drawing::Size(320, 20);
 			this->RoomName->Name = L"RoomName";
 			this->RoomName->ReadOnly = true;
-			this->RoomName->Size = System::Drawing::Size(240, 23);
+			this->RoomName->Size = System::Drawing::Size(320, 29);
 			this->RoomName->TabIndex = 19;
 			this->RoomName->Text = L"President Suite";
 			this->RoomName->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
@@ -264,19 +275,20 @@ namespace Window {
 			// RoomNumber
 			// 
 			this->RoomNumber->AutoSize = true;
-			this->RoomNumber->Location = System::Drawing::Point(141, 45);
-			this->RoomNumber->MinimumSize = System::Drawing::Size(100, 26);
+			this->RoomNumber->Location = System::Drawing::Point(188, 55);
+			this->RoomNumber->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->RoomNumber->MinimumSize = System::Drawing::Size(133, 32);
 			this->RoomNumber->Name = L"RoomNumber";
-			this->RoomNumber->Size = System::Drawing::Size(100, 26);
+			this->RoomNumber->Size = System::Drawing::Size(133, 32);
 			this->RoomNumber->TabIndex = 20;
 			this->RoomNumber->Text = L"154";
 			this->RoomNumber->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// RoomDetailForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(602, 343);
+			this->ClientSize = System::Drawing::Size(803, 422);
 			this->Controls->Add(this->RoomNumber);
 			this->Controls->Add(this->RoomName);
 			this->Controls->Add(this->BedNumber);
@@ -287,7 +299,8 @@ namespace Window {
 			this->Controls->Add(this->BookBtn);
 			this->Controls->Add(this->DetailsTextBox);
 			this->Controls->Add(this->label2);
-			this->MinimumSize = System::Drawing::Size(618, 382);
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->MinimumSize = System::Drawing::Size(818, 459);
 			this->Name = L"RoomDetailForm";
 			this->Text = L"Room Detail Showcase";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->PictureBox))->EndInit();
@@ -297,5 +310,7 @@ namespace Window {
 
 		}
 #pragma endregion
+private: System::Void FeaturesListBox_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
