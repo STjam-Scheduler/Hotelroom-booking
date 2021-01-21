@@ -8,3 +8,8 @@ C:\Users\aaron\source\repos\STjam-Scheduler\Hotelroom-booking\EasyHotelBooking24
 C:\Users\aaron\source\repos\STjam-Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.vcxproj.GenerateResource.cache
 C:\Users\aaron\source\repos\STjam-Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.exe
 C:\Users\aaron\source\repos\STjam-Scheduler\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.pdb
+C:\Users\julia\Documents\Studium\3._Semester\Softwaretechnik\Labor\Lab_2\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.vcxprojAssemblyReference.cache
+C:\Users\julia\Documents\Studium\3._Semester\Softwaretechnik\Labor\Lab_2\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.RoomDetailForm.resources
+C:\Users\julia\Documents\Studium\3._Semester\Softwaretechnik\Labor\Lab_2\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.vcxproj.GenerateResource.cache
+C:\Users\julia\Documents\Studium\3._Semester\Softwaretechnik\Labor\Lab_2\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.exe
+C:\Users\julia\Documents\Studium\3._Semester\Softwaretechnik\Labor\Lab_2\Hotelroom-booking\EasyHotelBooking24\Debug\EasyHotelBooking24.pdb
