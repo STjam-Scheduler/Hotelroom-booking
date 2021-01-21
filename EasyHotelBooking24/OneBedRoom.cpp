@@ -10,7 +10,7 @@ TwoBedRoom::TwoBedRoom(int rNr) : Room("TwoBedRoom", rNr, 2, "FlatscreenTV, Bar,
 ThreeBedRoom::ThreeBedRoom(int rNr) : Room("ThreeBedRoom", rNr, 3, "FlatscreenTv, Bar, Doublebed, SleepingCouch, ...", 300, { "https://thinkcomputers.org/wp-content/uploads/2018/08/62r2aa07me911.jpg", "https://successfulsoftware.files.wordpress.com/2009/07/oryx.jpg", "https://i.imgur.com/Dz1WI.jpg" } ) {
 }
 
-PresidentSuite::PresidentSuite(int rNr) : Room("PresidentSuite", rNr, 2, "4k-Screen, Bar, Kingsizebed, Whirlpool, Butler, ...", 1500, { "https://upload.wikimedia.org/wikipedia/de/2/2f/D%C3%B6nerbude.JPG", "https://noktara.de/wp-content/uploads/Noktara-Ausgetrickst-Erdogan-umgeht-Auftrittsverbot-als-D%C3%B6nerverk%C3%A4ufer.jpg", "https://www.nuku.de/pictures/mobile/tandir-eine-der-besseren-doenerbuden-in-braunschweig-3963-1485.jpg" }) {
+PresidentSuite::PresidentSuite(int rNr) : Room("PresidentSuite", rNr, 2, "4k-Screen,Der Geraet, Bar, Kingsizebed, Whirlpool, Butler, ...", 1500, { "https://upload.wikimedia.org/wikipedia/de/2/2f/D%C3%B6nerbude.JPG", "https://noktara.de/wp-content/uploads/Noktara-Ausgetrickst-Erdogan-umgeht-Auftrittsverbot-als-D%C3%B6nerverk%C3%A4ufer.jpg", "https://www.nuku.de/pictures/mobile/tandir-eine-der-besseren-doenerbuden-in-braunschweig-3963-1485.jpg" }) {
 }
 
 // Vector ist in main() von CppCLR_WinformsProjekt.cpp
