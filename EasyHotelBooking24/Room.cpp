@@ -2,7 +2,9 @@
 #include "Room.h"
 
 
-Room::Room(int rNr, int b, string f, double p) {
+Room::Room(string n, int rNr, int b, string f, double p, vector<string> pics) {
+	name = n;
+	picURI = pics;
 	roomNr = rNr;
 	beds = b;
 	features = f;
@@ -14,11 +16,23 @@ int Room::getRoomNr() {
 	return roomNr;
 }
 
+int Room::getBedNumb() {
+	return beds;
+}
+
+string Room::getRoomName() {
+	return name;
+}
+
+void Room::setRoomName(string n) {
+	name = n;
+}
+
 string Room::getFeatures() {
 	return features;
 }
 
-double Room::getPrice() {
+int Room::getPrice() {
 	return price;
 }
 

@@ -1,7 +1,9 @@
 #pragma once
+#include <msclr/marshal_cppstd.h>
+#include "OneBedRoom.h"
+#include "RoomsList.h"
 
 namespace Window {
-
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -15,6 +17,9 @@ namespace Window {
 	public ref class RoomDetailForm : public System::Windows::Forms::Form
 	{
 	public:
+		int picIndex = 0;
+		static Room* activeRoom;
+		
 		RoomDetailForm(void)
 		{
 			InitializeComponent();
@@ -168,6 +173,7 @@ namespace Window {
 			this->LeftBtn->TabIndex = 9;
 			this->LeftBtn->Text = L"<\r\n";
 			this->LeftBtn->UseVisualStyleBackColor = false;
+			this->LeftBtn->Click += gcnew System::EventHandler(this, &RoomDetailForm::LeftBtn_Click);
 			// 
 			// groupBox1
 			// 
@@ -198,6 +204,7 @@ namespace Window {
 			this->RightBtn->TabIndex = 10;
 			this->RightBtn->Text = L">\r\n";
 			this->RightBtn->UseVisualStyleBackColor = false;
+			this->RightBtn->Click += gcnew System::EventHandler(this, &RoomDetailForm::RightBtn_Click);
 			// 
 			// FeaturesListBox
 			// 
@@ -290,6 +297,7 @@ namespace Window {
 			this->MinimumSize = System::Drawing::Size(618, 382);
 			this->Name = L"RoomDetailForm";
 			this->Text = L"Room Detail Showcase";
+			this->Load += gcnew System::EventHandler(this, &RoomDetailForm::RoomDetailForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->PictureBox))->EndInit();
 			this->groupBox1->ResumeLayout(false);
 			this->ResumeLayout(false);
@@ -297,5 +305,28 @@ namespace Window {
 
 		}
 #pragma endregion
+private: System::Void RightBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+	RoomsList roomsDepot;
+	picIndex++;
+	this->PictureBox->ImageLocation = gcnew String(activeRoom->picURI.at(abs(picIndex)% activeRoom->picURI.size()).c_str());
+}
+private: System::Void LeftBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+	RoomsList roomsDepot;
+	picIndex--;
+	this->PictureBox->ImageLocation = gcnew String(activeRoom->picURI.at(abs(picIndex) % activeRoom->picURI.size()).c_str());
+}
+private:
+	   void LoadRoomDataIn(Room* room) {
+		   this->RoomName->Text = gcnew String(room->getRoomName().c_str());
+		   this->RoomNumber->Text = gcnew String(std::to_string(room->getRoomNr()).c_str());
+		   this->BedNumber->Text = gcnew String(std::to_string(room->getBedNumb()).c_str());
+		   this->DetailsTextBox->Text = gcnew String(room->getFeatures().c_str());
+		   this->BookBtn->Text = gcnew String(std::to_string(room->getPrice()).append("$ /night\r\nbook now!").c_str());
+
+		   this->PictureBox->ImageLocation = gcnew String(room->picURI.at(0).c_str());
+	   }
+private: System::Void RoomDetailForm_Load(System::Object^ sender, System::EventArgs^ e) {
+	LoadRoomDataIn(activeRoom);
+}
 };
 }

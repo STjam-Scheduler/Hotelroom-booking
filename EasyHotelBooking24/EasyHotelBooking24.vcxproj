@@ -159,6 +159,7 @@
     <ClInclude Include="RoomDetailForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="RoomsList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
@@ -173,6 +174,7 @@
     </ClCompile>
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="RoomDetailForm.cpp" />
+    <ClCompile Include="RoomsList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
